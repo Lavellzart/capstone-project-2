@@ -3,6 +3,7 @@ body {
   background-color: #061e29;
 }
 
+
 h2 {
   color: #f3f4f4;
   font-family: "Zain", sans-serif;
@@ -31,16 +32,44 @@ h3 {
 }
 
 .owl {
-    position: absolute;
-    right: 00px;
-    top: 0px;
-    height: 50%;
+
+  position: absolute;
+  right: 100px;
+  top: 50px;
+  height: 25%;
+  }
+
+@media (min-width: 200px) and (max-width: 800px) {
+    .owl {position: absolute;
+         right: 1px;
+         height: 10%;
 }
+}
+
+@media (min-width: 801px) and (max-width: 2000) {
+    .owl {position: absolute;
+          right: 100px;
+          top: 50px;
+          height: 100%;}
+}
+
 
 .gradient-background {
   background: linear-gradient(190deg, #061e29, #1d546d, #5f9598, #f3f4f4);
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .lavellzart {
@@ -129,10 +158,12 @@ h3 {
 /* Bottom Container */
 .bottom-container {
   padding: 50px 0 20px;
-  background: linear-gradient(190deg, #061e29, #1d546d, #5f9598, #f3f4f4);
+  background: linear-gradient(200deg, #061e29, #1d546d, #5f9598, #f3f4f4);
   background-size: 100% 100%;
-  animation: gradient-animation 18s ease infinite;
+  animation: gradient-animation 20s ease infinite;
 }
+
+
 
 .footer-link {
   color: #061e29;
