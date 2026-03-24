@@ -1,0 +1,149 @@
+body {
+  text-align: center;
+  background-color: #061e29;
+}
+
+h2 {
+  color: #f3f4f4;
+  font-family: "Zain", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 5px;
+}
+
+h3 {
+  color: #f3f4f4;
+}
+
+.line-break {
+  border: none;
+  height: 2px;
+  background-color: #5f9598;
+  margin: 75px auto;
+  width: 10%;
+}
+
+/* Top Section */
+.top-container {
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.owl {
+    position: absolute;
+    right: 00px;
+    top: 0px;
+    height: 50%;
+}
+
+.gradient-background {
+  background: linear-gradient(190deg, #061e29, #1d546d, #5f9598, #f3f4f4);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+.lavellzart {
+  color: #f3f4f4;
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+}
+
+.illust {
+  color: #f3f4f4;
+  font-family: "Zain", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+/* Profile */
+.profile {
+  padding-top: 75px;
+}
+
+.meet {
+  font-family: "zain", sans-serif;
+  color: #f3f4f4;
+  margin-top: 50px;
+}
+.about {
+  color: #5f9598;
+}
+
+.joe {
+  height: 200px;
+  border-radius: 50%;
+  border: solid #5f9598;
+}
+
+/* Skills */
+.skills-parent {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  row-gap: 2rem;
+}
+
+.snow-image {
+  width: 90%;
+  border: inset #5f9598;
+  border-radius: 15%;
+  overflow: hidden;
+}
+
+.kaitlyn-image {
+  width: 90%;
+  border: inset #5f9598;
+  border-radius: 15%;
+}
+
+.mach-image {
+  width: 90%;
+  border: inset #5f9598;
+  border-radius: 15%;
+}
+
+/* Contact Me */
+.contact-message {
+  width: 40%;
+  margin: 40px auto 40px;
+}
+
+.btn {
+  background-image: linear-gradient(to bottom, #5f9598, #1d546d);
+  border-radius: 8px;
+  font-family: "Zain", sans-serif;
+  color: #f3f4f4;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: -10px 20px 50px;
+}
+
+/* Bottom Container */
+.bottom-container {
+  padding: 50px 0 20px;
+  background: linear-gradient(190deg, #061e29, #1d546d, #5f9598, #f3f4f4);
+  background-size: 100% 100%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+.footer-link {
+  color: #061e29;
+  font-family: "Zain", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #f3f4f4;
+  font-size: 0.75rem;
+  padding: 20px 0;
+  line-height: 2;
+}
